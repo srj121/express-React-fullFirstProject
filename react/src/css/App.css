@@ -7,6 +7,7 @@ body.light-mode{
   height: 100%;
   width: auto;
   overflow: auto;
+  /* min-width: 600px; */
 }
 /* ....................................H1 H3................................... */
 body.light-mode h1 {
@@ -40,6 +41,10 @@ body.light-mode th,
 td {
   padding: 12px 50px;
 }
+body.light-mode td {
+  color: black ;
+}
+
 
 body.light-mode tbody tr:nth-of-type(even) {
   background-color: #f7ecec;
@@ -54,6 +59,7 @@ body.light-mode tr:hover td {
 
 body.light-mode label {
   float: left;
+  
   padding: 5px;
   width: 1px;
   margin-left: 10px;
@@ -96,7 +102,7 @@ body.light-mode .home_component {
 }
 body.light-mode .all-user h1 {
   position: absolute;
-  right: 75%;
+  right: 74%;
 }
 /* ...................................SCROLL BAR................................... */
 

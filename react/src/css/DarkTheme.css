@@ -35,9 +35,12 @@ body.dark-mode thead tr {
 body.dark-mode th,
 td {
   padding: 12px 5px;
-  color: #ffffff;
 
 }
+body.dark-mode td {
+  color: #ffffff;
+}
+
 
 body.dark-mode tbody tr:nth-of-type(even) {
   background-color: #f7ecec;
@@ -87,13 +90,17 @@ body.dark-mode .rest_of_component {
   left: 50%;
   top: 5%;
 }
-/* ....................................HOME................................... */
+/* ....................................CRUD OPERATION................................... */
 body.dark-mode .home_component {
   height: 800px;
   overflow: auto;
   position: absolute;
   right: 60%;
   top: 20px;
+}
+body.dark-mode .all-user h1 {
+  position: absolute;
+  right: 74%;
 }
 /* ...................................SCROLL BAR................................... */
 
