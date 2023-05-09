@@ -14,10 +14,12 @@
     font-size: 18px;
    display: flex;
    flex-wrap: wrap;
+   
  }
    .list-section-header li {
-      
+      margin-top: 20px;
      padding-right:12px;
+     color: white;
      
    }
 
@@ -47,3 +49,45 @@
     border: 1px solid black;
  
  }
+ .search-box-list input {
+  border-radius: 0% !important;
+  margin-left: 0% !important;  
+}
+.header-section a {
+  color: white;
+  padding: 40px;
+  text-decoration: none;
+}
+
+
+
+.footer-section a {
+  color: white;
+  padding: 40px;
+  text-decoration: none;
+}
+.list-section-footer li {
+  margin-top: 20px;
+ padding-right:12px;
+ color: white;
+ 
+}
+.footer-section {
+  position: absolute;
+    /* top: 0;  */
+    /* right: 0; */
+    /* left: 0; */
+   width: 100%; 
+   height: 130px;
+   box-sizing: border-box; 
+   padding: 10px; 
+   border: 1px solid black; 
+}
+.list-section-footer {
+  padding-left: 1000px;
+  list-style: none;
+   font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
