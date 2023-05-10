@@ -19,6 +19,7 @@ body.light-mode h3 {
 
 /* ....................................TABLE................................... */
 body.light-mode table {
+  margin-top: 6px;
   border-collapse: collapse;
   font-size: 0.9em;
   font-family: sans-serif;
@@ -78,6 +79,7 @@ body.light-mode input::placeholder {
 body.light-mode button {
   background-color: transparent;
   border-color: #dddddd;
+  color: #dddddd;
   border-radius: 10px;
   width: auto;
   margin-left: 10px;
