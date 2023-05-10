@@ -51,7 +51,7 @@ function LoginPage() {
         }
       else  {
         showNotification("Welcome!", "sucess");
-        window.location = "/crudoperation";
+        window.location = "/main";
       }
       
     }

@@ -1,13 +1,14 @@
+/* ____________________________________header_____________________________ */
+
 .header-section {
   position: absolute;
     top: 0; 
     right: 0;
     left: 0;
    width: 100%; 
-   height: 130px;
+   height: 100px;
    box-sizing: border-box; 
-   padding: 10px; 
-   border: 1px solid black; 
+   border: 1px solid rgb(225, 214, 214); 
 }
 .list-section-header {
   justify-content: center;
@@ -15,83 +16,103 @@
    font-size: 18px;
   display: flex;
   flex-wrap: wrap;
-
-  
 }
+
   .list-section-header li {
+    margin-right: 200px;
+    justify-content: center;
      margin-top: 20px;
-    padding-right:12px;
     color: white;
     
   }
+/* ____________________________________main_____________________________ */
 
 .main-section {
    position: absolute;
-   top: 130px; 
+   top: 100px; 
    right: 0;
    left: 0;
    bottom: 130px;
   width: 100%; 
   box-sizing: border-box; 
   padding: 10px; 
-  border: 1px solid black;
+  border: 1px solid  rgb(225, 214, 214)
    
 
 }
-.footer-section {
-   /* width: auto; height: 100px;*/
-   position: absolute;
-    bottom: 0; 
-    right: 0;
-    left: 0;
-   width: 100%; 
-   height: 130px;
-   box-sizing: border-box; 
-   padding: 10px; 
-   border: 1px solid rgb(228, 215, 215);
+/* ____________________________________main box_____________________________ */
+.crud-box{
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: #cb7b7b;
+  box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.2);
+}
+.crud-box h3 {
+  text-align: center;
 
 }
+.crud-box p {
+  margin-left: 5px;
+}
+.crud-box:hover{
+
+}
+.crud-box button {
+  cursor: pointer;
+}
+
+
 .search-box-list input {
  border-radius: 0% !important;
  margin-left: 0% !important;  
 }
-.header-section a {
- color: white;
- padding: 100px;
+.list-section-header a {
+ color: black;
  align-items: center;
- 
  text-decoration: none;
 }
-
+/* ____________________________________footer_____________________________ */
 
 
 .footer-section a {
- color: white;
- padding: 110px;
+ /* color: black; */
+ margin-right: 200px;
  text-decoration: none;
 }
 .list-section-footer li {
- margin-top: 20px;
-padding-right:12px;
-color: white;
+ /* margin-top: 20px; */
+/* padding-right:12px; */
+
 
 }
 .footer-section {
- position: absolute;
-   /* top: 0;  */
-   /* right: 0; */
-   /* left: 0; */
+  /* width: auto; height: 100px;*/
+  position: absolute;
+   bottom: 0; 
+   right: 0;
+   left: 0;
   width: 100%; 
   height: 130px;
   box-sizing: border-box; 
-  padding: 10px; 
-  border: 1px solid black; 
+  /* padding: 10px;  */
+  border: 1px solid  rgb(225, 214, 214);
+
 }
+
 .list-section-footer {
  justify-content: center;
  list-style: none;
-  font-size: 18px;
  display: flex;
  flex-wrap: wrap;
  
+}
+.header-search-button {
+  border-radius: 0% !important;
+}
+
+/* __________________________icons________________________ */
+
+.footer-section img {
+  width: 40px;
 }

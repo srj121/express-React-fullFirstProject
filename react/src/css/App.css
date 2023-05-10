@@ -79,7 +79,7 @@ body.light-mode input::placeholder {
 body.light-mode button {
   background-color: transparent;
   border-color: #dddddd;
-  color: #dddddd;
+  color: black;
   border-radius: 10px;
   width: auto;
   margin-left: 10px;
