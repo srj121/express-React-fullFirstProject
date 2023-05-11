@@ -2,11 +2,13 @@ import Footer from "./Footer";
 import Header from "./Header";
 import '../css/main.css'
 import { Link } from "react-router-dom";
+import Usericon from "../crud_operation/userIcon";
 
 function Main() {
 
     return(
         <>
+        <Usericon />
         <Header />
         <div className="main-section">
         <div className="crud-box">
@@ -17,7 +19,7 @@ function Main() {
                GET . CREATE <br/>
                 UPDATE . DELETE
             </p>
-            <Link to={"/crudoperation"}>
+            <Link to={"/login"}>
             <button>Try!</button>
             </Link>
         </div>

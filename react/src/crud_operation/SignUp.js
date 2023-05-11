@@ -99,7 +99,7 @@ function SignUp() {
         </button>
         <br></br><br></br>
 
-        <Link to={"/"}>Already have a account!</Link>
+        <Link to={"/login"}>Already have a account!</Link>
     </form>
   );
 }

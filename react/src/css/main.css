@@ -25,6 +25,9 @@
     color: white;
     
   }
+  .header-search-button {
+    border-radius: 0% !important;
+  }
 /* ____________________________________main_____________________________ */
 
 .main-section {
@@ -60,6 +63,7 @@
 }
 .crud-box button {
   cursor: pointer;
+  background-color: beige !important;
 }
 
 
@@ -107,9 +111,16 @@
  flex-wrap: wrap;
  
 }
-.header-search-button {
-  border-radius: 0% !important;
+.footer-section .fotter-paragraph p {
+text-align: center;
+text-indent: 50px;
+letter-spacing: 3px;
+color: aliceblue;
+
 }
+
+
+
 
 /* __________________________icons________________________ */
 

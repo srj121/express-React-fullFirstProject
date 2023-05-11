@@ -73,7 +73,7 @@ export function Logout() {
 }
 function logout() {
   showNotification("You have done a logout!","success")
-  window.location ="/";
+  window.location ="/login";
 }
 export function LogoutMenu(props) {
   return (
