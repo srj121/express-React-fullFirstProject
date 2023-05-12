@@ -1,0 +1,34 @@
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-12T07:00:11.958Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.ixfsgzn.mongodb.net","level":"error","syscall":"querySrv","timestamp":"2023-05-12T07:00:12.116Z"}
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-12T07:01:29.206Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.ixfsgzn.mongodb.net","level":"error","syscall":"querySrv","timestamp":"2023-05-12T07:01:29.218Z"}
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-12T07:03:16.390Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-12T07:03:16.917Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-12T07:03:16.919Z"}
+{"level":"info","message":"password is valid ","timestamp":"2023-05-12T07:04:50.459Z"}
+{"level":"info","message":"password is valid ","timestamp":"2023-05-12T07:08:30.328Z"}
+{"level":"info","message":"password is valid ","timestamp":"2023-05-12T07:08:51.385Z"}
+{"level":"info","message":"get by Name","timestamp":"2023-05-12T07:09:01.635Z"}
+{"level":"info","message":"userName = asif","timestamp":"2023-05-12T07:09:01.636Z"}
+{"level":"info","message":"get by Age","timestamp":"2023-05-12T07:09:07.066Z"}
+{"level":"info","message":"userAge = 89","timestamp":"2023-05-12T07:09:07.068Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"645de61ccdf43c74dfc7a08b"},"timestamp":"2023-05-12T07:09:16.754Z"}
+{"level":"info","message":"645cfb0e6d2f414455718cff","timestamp":"2023-05-12T07:09:26.595Z"}
+{"level":"info","message":"Document deleted successfully","timestamp":"2023-05-12T07:09:26.620Z"}
+{"level":"info","message":"6450a2577bac7827ddda148d","timestamp":"2023-05-12T07:09:51.727Z"}
+{"level":"info","message":"Document deleted successfully","timestamp":"2023-05-12T07:09:51.841Z"}
+{"level":"info","message":"6450a2577bac7827ddda148d","timestamp":"2023-05-12T07:09:55.443Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.ixfsgzn.mongodb.net","level":"error","syscall":"querySrv","timestamp":"2023-05-12T07:10:11.385Z"}
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-12T07:10:27.805Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-12T07:10:28.180Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-12T07:10:28.182Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-12T07:10:30.001Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-12T07:10:30.004Z"}
+{"level":"error","timestamp":"2023-05-12T07:16:48.844Z"}
+{"level":"info","message":"Error getting document","timestamp":"2023-05-12T07:16:48.845Z"}
+{"level":"error","timestamp":"2023-05-12T07:16:58.683Z"}
+{"level":"info","message":"Error getting document","timestamp":"2023-05-12T07:16:58.684Z"}
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-12T07:17:15.086Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-12T07:17:15.440Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-12T07:17:15.441Z"}
+{"level":"info","message":"password is valid ","timestamp":"2023-05-12T07:17:28.124Z"}

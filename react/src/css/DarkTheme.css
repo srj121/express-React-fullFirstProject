@@ -1,0 +1,154 @@
+body.dark-mode {
+  background: linear-gradient(90deg, rgb(9, 7, 7) 0%, rgb(62, 2, 49) 100%);
+  height: 100%;
+  width: auto;
+  overflow: auto;
+}
+/* ....................................H1 H3................................... */
+h1 {
+  color: rgb(255, 255, 255);
+}
+h3 {
+  color: rgb(255, 255, 255);
+}
+
+/* ....................................TABLE................................... */
+body.dark-mode table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+}
+body.dark-mode .main-td {
+  position: fixed;
+  min-width: 400px !important;
+  background-color: #be6b26 !important;
+  box-shadow: 0 0 20px rgb(221, 209, 209);
+}
+
+body.dark-mode thead tr {
+  background-color: #be6b26;
+  color: #ffffff;
+  text-align: left;
+}
+
+body.dark-mode th,
+td {
+  padding: 12px 5px;
+
+}
+body.dark-mode td {
+  color: #ffffff;
+}
+
+
+body.dark-mode tbody tr:nth-of-type(even) {
+  background-color: #f7ecec;
+  background-color: transparent;
+}
+
+body.dark-mode tr:hover td {
+   cursor: pointer;
+  transform: translateY(-2px);
+}
+/* ....................................INPUT................................... */
+
+body.dark-mode label {
+  float: left;
+  padding: 5px;
+  width: 1px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+body.dark-mode input {
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: #fffcfc;
+  margin-left: 100px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+body.dark-mode input::placeholder {
+  color: rgba(54, 29, 29, 0.596);
+  color: #968585;
+}
+/* ....................................BUTTON................................... */
+body.dark-mode button {
+  background-color: transparent;
+  border-color: #dddddd;
+  border-radius: 10px;
+  width: auto;
+  margin-left: 10px;
+  color: #ffffff;
+}
+/* ....................................REST COMPONENT................................... */
+body.dark-mode .rest_of_component {
+  height: 800px;
+  overflow: auto;
+
+  position: absolute;
+  left: 50%;
+  top: 5%;
+}
+/* ....................................CRUD OPERATION................................... */
+body.dark-mode .home_component {
+  height: 800px;
+  overflow: auto;
+  position: absolute;
+  right: 60%;
+  top: 20px;
+}
+body.dark-mode .all-user h1 {
+  position: absolute;
+  right: 74%;
+}
+/* ...................................SCROLL BAR................................... */
+
+body.dark-mode ::-webkit-scrollbar {
+  color: white;
+}
+
+/* ...................................SCROLL BAR................................... */
+
+body.dark-mode .user-menu {
+  border-left: 5px solid rgb(206, 189, 189);
+  position: fixed;
+  border-top-left-radius: 10px;
+  top: 0%;
+  right: 0;
+  height: 95.5%;
+  background: linear-gradient(
+    30deg,
+    rgb(160, 88, 112) 30%,
+    rgb(128, 33, 48),
+    #4daca7
+  );
+  padding: 20px;
+  width: 150px;
+  z-index: 1;
+}
+
+body.dark-mode .user-menu ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 2px;
+}
+body.dark-mode .user-menu li {
+  padding-top: 20%;
+  color: #fff9f9;
+}
+
+body.dark-mode .user-menu li:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+body.dark-mode .sub-menu {
+  background: linear-gradient(
+    rgb(109, 61, 61),
+    rgb(180, 140, 151) 30%,
+    rgb(197, 189, 153),
+    rgb(180, 156, 156)
+  );
+  margin-left: 10px;
+  border-radius: 9px;
+}

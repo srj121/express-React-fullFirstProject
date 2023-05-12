@@ -1,0 +1,80 @@
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-05T05:37:08.672Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T05:37:09.186Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T05:37:09.189Z"}
+{"level":"info","message":"password is valid ","timestamp":"2023-05-05T05:44:46.247Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T05:48:22.498Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T05:48:22.505Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"64549901fbb77d6c32503b9a"},"timestamp":"2023-05-05T05:49:53.697Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"64549906fbb77d6c32503b9b"},"timestamp":"2023-05-05T05:49:58.138Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"6454990dfbb77d6c32503b9c"},"timestamp":"2023-05-05T05:50:05.619Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"64549915fbb77d6c32503b9d"},"timestamp":"2023-05-05T05:50:13.312Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"64549923fbb77d6c32503b9e"},"timestamp":"2023-05-05T05:50:27.659Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T05:51:17.432Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T05:51:17.435Z"}
+{"level":"info","message":"get by Name","timestamp":"2023-05-05T05:52:11.638Z"}
+{"level":"info","message":"userName = suraj","timestamp":"2023-05-05T05:52:11.640Z"}
+{"level":"info","message":"get by Age","timestamp":"2023-05-05T05:52:16.385Z"}
+{"level":"info","message":"userAge = 12","timestamp":"2023-05-05T05:52:16.386Z"}
+{"level":"info","message":"get by Name","timestamp":"2023-05-05T05:54:14.052Z"}
+{"level":"info","message":"userName = suraj","timestamp":"2023-05-05T05:54:14.053Z"}
+{"level":"info","message":"get by Age","timestamp":"2023-05-05T05:54:17.333Z"}
+{"level":"info","message":"userAge = 12","timestamp":"2023-05-05T05:54:17.334Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"64549a11fbb77d6c32503b9f"},"timestamp":"2023-05-05T05:54:25.084Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"64549a2cfbb77d6c32503ba0"},"timestamp":"2023-05-05T05:54:52.815Z"}
+{"level":"info","message":"get by Age","timestamp":"2023-05-05T05:54:55.613Z"}
+{"level":"info","message":"userAge = 12","timestamp":"2023-05-05T05:54:55.614Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"64549a9cfbb77d6c32503ba1"},"timestamp":"2023-05-05T05:56:45.032Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"6454a8f6fbb77d6c32503ba2"},"timestamp":"2023-05-05T06:57:58.386Z"}
+{"level":"error","timestamp":"2023-05-05T08:32:42.724Z"}
+{"level":"info","message":"Error getting document","timestamp":"2023-05-05T08:32:42.737Z"}
+{"level":"error","timestamp":"2023-05-05T09:45:49.404Z"}
+{"level":"info","message":"Error inserting document","timestamp":"2023-05-05T09:45:49.407Z"}
+{"level":"error","timestamp":"2023-05-05T10:02:33.904Z"}
+{"level":"info","message":"Error inserting document","timestamp":"2023-05-05T10:02:33.904Z"}
+{"level":"error","timestamp":"2023-05-05T10:06:05.485Z"}
+{"level":"info","message":"Error inserting document","timestamp":"2023-05-05T10:06:05.493Z"}
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-05T10:24:56.426Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T10:24:56.814Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T10:24:56.816Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"6454d9a93657139ae0cdfab9"},"timestamp":"2023-05-05T10:25:45.387Z"}
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-05T10:28:30.939Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T10:28:31.285Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T10:28:31.286Z"}
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-05T10:40:59.577Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T10:41:00.004Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T10:41:00.006Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"6454de047a6fe912c0a2cb90"},"timestamp":"2023-05-05T10:44:20.911Z"}
+{"level":"info","message":"password is valid ","timestamp":"2023-05-05T10:45:11.298Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T10:45:38.285Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T10:45:38.293Z"}
+{"level":"error","timestamp":"2023-05-05T12:31:27.040Z"}
+{"level":"info","message":"Error inserting document","timestamp":"2023-05-05T12:31:27.057Z"}
+{"level":"error","timestamp":"2023-05-05T12:34:39.260Z"}
+{"level":"info","message":"Error inserting document","timestamp":"2023-05-05T12:34:39.261Z"}
+{"level":"error","timestamp":"2023-05-05T12:35:53.883Z"}
+{"level":"info","message":"Error inserting document","timestamp":"2023-05-05T12:35:53.884Z"}
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-05T12:36:08.578Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T12:36:08.929Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T12:36:08.930Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"6454f83fbc47be9d11b2fb71"},"timestamp":"2023-05-05T12:36:16.257Z"}
+{"level":"error","timestamp":"2023-05-05T12:36:47.214Z"}
+{"level":"info","message":"Error getting document","timestamp":"2023-05-05T12:36:47.215Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"6454f8a2bc47be9d11b2fb72"},"timestamp":"2023-05-05T12:37:54.472Z"}
+{"level":"info","message":"password is valid ","timestamp":"2023-05-05T12:38:38.078Z"}
+{"level":"info","message":"get by Name","timestamp":"2023-05-05T12:39:13.657Z"}
+{"level":"info","message":"userName = suraj","timestamp":"2023-05-05T12:39:13.658Z"}
+{"level":"info","message":"get by Age","timestamp":"2023-05-05T12:39:21.744Z"}
+{"level":"info","message":"userAge = 12","timestamp":"2023-05-05T12:39:21.745Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"6454f905bc47be9d11b2fb73"},"timestamp":"2023-05-05T12:39:33.165Z"}
+{"level":"info","message":"6454f905bc47be9d11b2fb73","timestamp":"2023-05-05T12:39:41.513Z"}
+{"level":"info","message":"Document deleted successfully","timestamp":"2023-05-05T12:39:41.576Z"}
+{"level":"info","message":"suraj","timestamp":"2023-05-05T12:39:55.833Z"}
+{"level":"info","message":"Document deleted successfully","timestamp":"2023-05-05T12:39:55.860Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T13:02:42.024Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T13:02:42.029Z"}
+{"level":"error","timestamp":"2023-05-05T13:05:08.189Z"}
+{"level":"info","message":"Error getting document","timestamp":"2023-05-05T13:05:08.190Z"}
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-05T13:05:37.507Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T13:05:37.836Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-05T13:05:37.837Z"}
+{"level":"info","message":"password is valid ","timestamp":"2023-05-05T13:05:46.626Z"}

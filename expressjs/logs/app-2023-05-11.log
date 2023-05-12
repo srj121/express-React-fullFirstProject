@@ -1,0 +1,17 @@
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-11T05:03:10.395Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-11T05:03:10.959Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-11T05:03:10.960Z"}
+{"level":"info","message":"Server started on port 3001","timestamp":"2023-05-11T14:23:10.550Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-11T14:23:11.844Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2023-05-11T14:23:11.846Z"}
+{"level":"info","message":"get by Name","timestamp":"2023-05-11T14:25:29.890Z"}
+{"level":"info","message":"userName = asif","timestamp":"2023-05-11T14:25:29.892Z"}
+{"level":"info","message":"get by Age","timestamp":"2023-05-11T14:25:34.584Z"}
+{"level":"info","message":"userAge = 78","timestamp":"2023-05-11T14:25:34.584Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"645cfae96d2f414455718cfe"},"timestamp":"2023-05-11T14:25:45.527Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"645cfb0e6d2f414455718cff"},"timestamp":"2023-05-11T14:26:22.442Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"645cfb156d2f414455718d00"},"timestamp":"2023-05-11T14:26:29.593Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"645cfb1c6d2f414455718d01"},"timestamp":"2023-05-11T14:26:36.299Z"}
+{"level":"info","message":{"acknowledged":true,"insertedId":"645cfb296d2f414455718d02"},"timestamp":"2023-05-11T14:26:49.275Z"}
+{"level":"info","message":"get by Name","timestamp":"2023-05-11T14:27:07.291Z"}
+{"level":"info","message":"userName = rahul","timestamp":"2023-05-11T14:27:07.293Z"}
