@@ -12,7 +12,7 @@ const { connectToDatabaseAuth, authclient } = require("./db");
 const authCollection = authclient.db("security").collection("auth");
 connectToDatabaseAuth();
 
-//_____________________________________LOGGER_______________________________________
+//_____________________________________LOGGER_______________________________________------
 
 const logger = require("./logger/logger");
 
