@@ -6,7 +6,7 @@ import AddUser from "./AddUser";
 import DeletById from "./DeleteById";
 import Usericon from "./userIcon";
 import Reconnect from "./reconnect";
-import { BASEURL, BASEURLONLINE } from "./url";
+import { BASEURL, BASEURLONLINE } from "../url";
 
 
 function Crudoperation() {

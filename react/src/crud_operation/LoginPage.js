@@ -2,9 +2,11 @@ import { useState } from "react";
 import { toast } from 'react-toastify';
 import '../css/login.css'
 import { Link } from "react-router-dom";
+import { BASEURLONLINE } from "../url";
+
 
 function LoginPage() {
-
+  
   const [userEmail, setUserEmail] = useState({ email: "" });
   const [userName, setUserName] = useState({ name: "" });
   const [userPassword, setUserPassword] = useState({ password: "" });
@@ -27,7 +29,7 @@ function LoginPage() {
       //   showNotification("Feilds should not be empty!",'error')
       // }else {
       
-      const response = await fetch("http://localhost:3001/loginuser", {
+      const response = await fetch(BASEURLONLINE + "loginuser", {
         method: "POST",
         headers: {
           "content-Type": "application/json",
@@ -114,6 +116,5 @@ function LoginPage() {
     </form>
   );
   };
-
 
 export default LoginPage;

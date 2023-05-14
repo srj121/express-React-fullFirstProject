@@ -2,6 +2,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import "../css/login.css";
 import { Link } from "react-router-dom";
+import { BASEURLONLINE } from "../url";
 
 function SignUp() {
   const [userEmail, setUserEmail] = useState({ email: "" });
@@ -21,7 +22,7 @@ function SignUp() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3001/authsignup", {
+      const response = await fetch( BASEURLONLINE + "authsignup", {
         method: "POST",
         headers: {
           "content-Type": "application/json",

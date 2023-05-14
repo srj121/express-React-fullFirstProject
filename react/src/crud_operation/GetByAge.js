@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { BASEURLONLINE } from "../url";
 
 
 function GetByAge() {
@@ -11,7 +12,7 @@ function GetByAge() {
         e.preventDefault()
      
         try {
-            const response = await fetch('http://localhost:3001/byage', {
+            const response = await fetch(BASEURLONLINE + 'byage', {
                 method: 'POST',
                 headers: {
                     'Content-Type':'application/json'

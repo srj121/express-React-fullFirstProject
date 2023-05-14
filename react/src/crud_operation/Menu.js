@@ -25,8 +25,8 @@ export function ProfileMenu(props) {
     <div className="sub-menu">
       {props.children}
 
-      <li>Name</li>
-      <li>Age</li>
+      <li>Username: </li>
+      <li>Email: </li>
     </div>
   );
 }

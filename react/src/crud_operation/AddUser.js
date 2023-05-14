@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { BASEURL, BASEURLONLINE } from "../url";
+
 
 function AddUser({userData, setUserData}) {
 
@@ -19,7 +21,7 @@ function AddUser({userData, setUserData}) {
             e.preventDefault()
 
         try {   
-           const response = await fetch('http://localhost:3001/addUser',{
+           const response = await fetch(BASEURLONLINE + 'addUser',{
             method: 'POST',
             headers: {
                 'content-Type':'application/json'

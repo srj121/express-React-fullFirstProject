@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { BASEURL, BASEURLONLINE } from "../url";
+
 
 function DeletById({ userData, setUserData}) {
     const [data, setData] = useState([]);
@@ -10,7 +12,7 @@ function DeletById({ userData, setUserData}) {
         e.preventDefault()
 
         try {
-           const response = await fetch('http://localhost:3001/deleteuserbyid', {
+           const response = await fetch(BASEURLONLINE + 'deleteuserbyid', {
                 method: 'POST',
                 headers: {
                     'Content-Type':'application/json'

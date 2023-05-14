@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { BASEURLONLINE } from "../url";
 
 function GetByName() {
     const [data, setData] = useState([]);
@@ -21,7 +22,7 @@ function GetByName() {
                 showNotification("User name should not be empty", "error");
 
             }else{
-            const response = await fetch(`http://localhost:3001/byname?name=${userName}`)
+            const response = await fetch(BASEURLONLINE + `byname?name=${userName}`)
           
             
             if (response.status === 404) {

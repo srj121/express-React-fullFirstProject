@@ -2,6 +2,7 @@ import React from "react";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import '../css/icon.css'
+import { BASEURLONLINE } from "../url";
 
 function Reconnect() {
 
@@ -15,7 +16,7 @@ function Reconnect() {
 
     const handleReconnectClick = async () => {
         try {
-            const response = await fetch('http://localhost:3001/reconnect')
+            const response = await fetch(BASEURLONLINE + 'reconnect')
             
             
             if(response.status === 200) {

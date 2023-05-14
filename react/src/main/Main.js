@@ -12,15 +12,14 @@ function Main() {
         <Header />
         <div className="main-section">
         <div className="crud-box">
-            <h3>CRUD Operation</h3>
+            <h3 className="crud-h3">CRUD Operation</h3>
+            <Link to={"/login"}>
             <p>
                 This page will give you the functionality of 
                 <br/> <br/>
                GET . CREATE <br/>
                 UPDATE . DELETE
             </p>
-            <Link to={"/login"}>
-            <button>Try!</button>
             </Link>
         </div>
 
