@@ -4,14 +4,15 @@ body.light-mode{
     hsla(213, 75%, 62%, 1) 0%,
     hsla(313, 75%, 62%, 1) 100%
   );
-  height: 100%;
-  width: auto;
+  /* height: 100vh; */
+  width: 100vh;
   overflow: auto;
   /* min-width: 600px; */
 }
 /* ....................................H1 H3................................... */
 body.light-mode h1 {
   color: rgb(255, 255, 255);
+ 
 }
 body.light-mode h3 {
   color: rgb(255, 255, 255);
@@ -19,28 +20,29 @@ body.light-mode h3 {
 
 /* ....................................TABLE................................... */
 body.light-mode table {
-  margin-top: 6px;
   border-collapse: collapse;
-  font-size: 0.9em;
+  font-size: 2.2vh;
   font-family: sans-serif;
-  min-width: 400px;
+  min-width: 56.5vh;
+
 }
 body.light-mode .main-td {
   position: fixed;
-  min-width: 400px !important;
+  min-width: 56.5vh !important;
   background-color: #009879 !important;
-  box-shadow: 0 0 20px rgb(221, 209, 209);
+  box-shadow: 0 0 2vh rgb(221, 209, 209);
 }
 
 body.light-mode thead tr {
   background-color: #009879;
+  
   color: #ffffff;
   text-align: left;
 }
 
 body.light-mode th,
 td {
-  padding: 12px 50px;
+  padding: 1.8vh 7vh;
 }
 body.light-mode td {
   color: black ;
@@ -53,24 +55,24 @@ body.light-mode tbody tr:nth-of-type(even) {
 
 body.light-mode tr:hover td {
   cursor: pointer;
-  transform: translateY(-2px);
+  transform: translateY(-0.2vh);
 }
 
 /* ....................................INPUT................................... */
 
 body.light-mode label {
   float: left;
-  
-  padding: 5px;
-  width: 1px;
-  margin-left: 10px;
+
+  padding: 0.9vh;
+  width: 0.4vh;
+  margin-left: 1vh;
 }
 body.light-mode input {
   background-color: transparent;
-  border-radius: 10px;
+  border-radius: 1.5vh;
   border-color: #fffcfc;
-  margin-left: 100px;
-  margin-top: 10px;
+  margin-left: 15vh;
+  margin-top: 1.5vh;
 }
 body.light-mode input::placeholder {
   color: rgba(54, 29, 29, 0.596);
@@ -80,31 +82,40 @@ body.light-mode button {
   background-color: transparent;
   border-color: #dddddd;
   color: black;
-  border-radius: 10px;
+  border-radius: 1.5vh;
   width: auto;
-  margin-left: 10px;
+  margin-left: 1.5vh;
+  margin-bottom: 1.5vh;
 }
 /* ....................................REST COMPONENT................................... */
 body.light-mode .rest_of_component {
-  height: 800px;
+  height: 90vh;
   overflow: auto;
 
   position: absolute;
   left: 50%;
-  top: 5%;
+  top: 10%;
 }
+
+body.light-mode .rest_of_component h3 {
+  /* position: absolute; */
+  left: 29vh;
+  font-size: 2.5vh ;
+}
+
 /* ....................................HOME................................... */
 body.light-mode .home_component {
   /* padding-top: 2.5%; */
-  height: 800px;
+  height: 90vh ;
   overflow: auto;
   position: fixed;
   right: 60%;
-  top: 80px !important;
+  top: 11% ; 
 }
 body.light-mode .all-user h1 {
   position: absolute;
-  right: 74%;
+  left: 29vh;
+  font-size: 4vh ;
 }
 /* ...................................SCROLL BAR................................... */
 

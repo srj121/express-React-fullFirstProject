@@ -22,7 +22,7 @@ function Reconnect() {
             if(response.status === 200) {
 
             showNotification("Reconnected to DB ", 'success')
-            window.location = "/home";
+            window.location = "#";
         }
 
         } catch (err) {
