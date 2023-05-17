@@ -12,10 +12,12 @@ body.light-mode{
 /* ....................................H1 H3................................... */
 body.light-mode h1 {
   color: rgb(255, 255, 255);
+  font-size: 5vw;
  
 }
 body.light-mode h3 {
   color: rgb(255, 255, 255);
+  font-size: 5vw;
 }
 
 /* ....................................TABLE................................... */
@@ -67,12 +69,16 @@ body.light-mode label {
   width: 0.4vh;
   margin-left: 1vh;
 }
+
+
 body.light-mode input {
   background-color: transparent;
   border-radius: 1.5vh;
   border-color: #fffcfc;
   margin-left: 15vh;
   margin-top: 1.5vh;
+  width: 50%;
+  max-width: 400px;
 }
 body.light-mode input::placeholder {
   color: rgba(54, 29, 29, 0.596);

@@ -16,7 +16,7 @@
   list-style: none;
   font-size: 3vh;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .list-section-header li {
@@ -122,9 +122,10 @@
 
 .list-section-footer {
   justify-content: center;
+  position: relative;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
 }
 
