@@ -2,7 +2,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import "../css/login.css";
 import { Link } from "react-router-dom";
-import { BASEURLONLINE } from "../url";
+import { BASEURL, BASEURLONLINE } from "../url";
 
 function SignUp() {
   const [userEmail, setUserEmail] = useState({ email: "" });

@@ -1,23 +1,23 @@
 .user-menu {
-    border-left: 0.5vh solid white;
-    position: absolute;
-    border-top-left-radius: 1.5vh;
+    border-left: 5px solid white;
+    position: fixed;
+    border-top-left-radius: 10px;
     top: 0%;
     right: 0;
-    height: 94.2vh;
+    height: 95.5%;
     background: linear-gradient(30deg,rgb(247, 134, 171) 30%,  rgb(223, 135, 149), #92e4e0);
-    padding: 2.5vh;
-    width: 18vh;
+    padding: 20px;
+    width: 150px;
     z-index: 1;
 }
 
 .user-menu ul {
     list-style-type: none;
-    margin: 1.2vh;
-    padding: 0.1vh;
+    margin: 10px;
+    padding: 2px;
 }
 .user-menu li {
-    padding-top: 2.8vh;
+    padding-top: 20%;
 }
 
 .user-menu li:hover {
@@ -26,8 +26,8 @@
 }
 .sub-menu {
     background: linear-gradient(rgb(233, 143, 143),rgb(235, 221, 225) 30%,  rgb(224, 192, 46),rgb(231, 213, 213));
-    margin-left: 1vh;
-    border-radius: 2vh;
+    margin-left: 10px;
+    border-radius: 9px;
 }
 /* _________________________________ */
 /* The switch - the box around the slider */

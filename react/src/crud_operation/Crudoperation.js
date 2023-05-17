@@ -27,6 +27,7 @@ const getData = async () => {
 }
     return(
         <>
+         <Usericon />
         <div className="all-user"><h1> All Users </h1></div>
         <div className="home_component">
             <table >  
@@ -39,7 +40,7 @@ const getData = async () => {
                         </thead>
                         <tbody>
                         {data.map(item => (
-                            <tr  key={item._id}>
+                        <tr  key={item._id}>
                             <td>{item._id}</td>
                             <td>{item.name}</td>
                             <td>{item.age}</td>
@@ -58,11 +59,10 @@ const getData = async () => {
                 <DeletByName userData={ data } setUserData={ setData }/>
                    {/* <!-- Rounded switch -->
 <label class="switch">
-<input type="checkbox"/>
-<span class="slider round"></span>
+  <input type="checkbox"/>
+  <span class="slider round"></span>
 </label> */}
                 </div>
-<Usericon />
                 </>
     );
 }
