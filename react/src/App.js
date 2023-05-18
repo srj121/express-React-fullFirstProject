@@ -8,7 +8,7 @@ import Main from "./main/Main";
 import About from "./review/About";*/
 
 
-export default function App() {
+ function App() {
   return (
     <h1>hi there!</h1>
     /*<BrowserRouter>
@@ -25,3 +25,4 @@ export default function App() {
   );
 }
 
+export default App;
