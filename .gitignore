@@ -1,2 +1,4 @@
 /expressjs/node_modules
 /react/node_modules
+/expressjs/logs
+/expressjs/logs/.812bc43db7f3d5ce0ee364337996c8c22bbfcae8-audit.json
