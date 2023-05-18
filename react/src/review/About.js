@@ -54,9 +54,13 @@ function About() {
           </div>
         </li>
       <div className="copyright">
-      © 2020 Copyright: 
+       
+      <p>© 2020 Copyright: </p>
+      
+      
       <a href="" target="_blank"  rel="noopener">
         Aquapond.com</a>
+      
     </div>
       </div>
     </div>
