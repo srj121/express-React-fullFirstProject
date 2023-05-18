@@ -10,7 +10,6 @@
 
 .about-container h1 {
   font-size: 5vh;
-  color: red;
 }
 @media screen and (max-width: 360px) {
   h1 {
@@ -19,14 +18,14 @@
 }
 @media screen and (max-width: 600px) {
   .about-container p {
-    font-size: 1vh !important;
+    font-size: 1.2vh !important;
   }
 }
 /* ____________________________________________fotter container________________________________ */
 
 .footer-container {
   position: absolute;
-  top: 76.8vh;
+  top: 82vh;
   right: 0vh;
   left: 0vh;
   border-top: 0.1vh solid rgb(225, 214, 214);
@@ -38,12 +37,12 @@
 }
 @media screen and (max-width: 600px) {
   .footer-container p {
-    font-size: 1vh !important;
+    font-size: 1.1vh !important;
   }
 }
 @media screen and (max-width: 600px) {
   .footer-container li {
-    font-size: 1vh !important;
+    font-size: 1.1vh !important;
   }
 }
 
@@ -86,7 +85,7 @@
 }
 @media screen and (max-width: 600px) {
   .address {
-    margin-left: 9vh;
+    margin-left: 8vh;
   }
 }
 
@@ -106,23 +105,48 @@
 .contact-info {
   margin-left: 3vh;
 }
+@media screen and (max-width: 600px) {
+  .contact-info {
+    margin-left: 1vh !important;
+  }
+}
 .contact-info li {
   margin-top: 0.9vh;
 }
+@media screen and (max-width: 600px) {
+  .contact-info li{
+    margin-top: 0.5vh !important;
+  }
+}
 .contact-info img {
   width: 3.5vh;
+}
+@media screen and (max-width: 600px) {
+  .contact-info img{
+    width: 2vh !important;
+  }
 }
 /* ____________________________________________copy right________________________________ */
 .copyright {
   text-align: center;
   position: absolute;
-  /* bottom: 0; */
   right: 0;
   left: 0;
-  /* width: 100%; */
-  /* height: 2.3vh; */
   background-color: rgba(0, 0, 0, 0.2);
 }
+@media screen and (max-width: 600px) {
+  .copyright p {
+    display: inline;
+  }
+}
+
 .copyright a {
   color: rgb(200, 216, 221);
+  
+}
+
+@media screen and (max-width: 600px) {
+  .copyright a {
+    font-size: 1.2vh !important;
+  }
 }
