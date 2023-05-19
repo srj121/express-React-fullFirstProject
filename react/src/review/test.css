@@ -1,0 +1,22 @@
+
+  .hoverButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .hoverButtonText {
+    position: absolute;
+    font-family: "Work Sans", sans-serif;
+    color: #eaeef5;
+    text-align: center;
+    user-select: none;
+  }
+  
+  .toggle {
+    width: 80px;
+    cursor: pointer;
+  }
+  /* .........................................................1 */

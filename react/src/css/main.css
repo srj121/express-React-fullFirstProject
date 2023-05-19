@@ -24,7 +24,6 @@
   justify-content: center;
   margin-top: 2vh;
   color: white;
-
 }
 
 .header-search-button {
@@ -38,11 +37,11 @@
   top: 14vh;
   right: 0;
   left: 0;
-  bottom: 18.4vh;
+  bottom: 11vh;
   width: 100%;
   box-sizing: border-box;
   padding: 2vh;
-  border-bottom: 0.2vh solid rgb(225, 214, 214)
+  border-bottom: 0.2vh solid rgb(225, 214, 214);
 }
 
 /* ____________________________________main box_____________________________ */
@@ -60,7 +59,6 @@
   padding-top: 3vh;
   color: rgb(39, 79, 79) !important;
   text-shadow: 0.5vh 1vh 0.8vh white;
-
 }
 
 .crud-box p {
@@ -71,7 +69,7 @@
 }
 
 .crud-box:hover {
-  transform: translateY(0.7vh)
+  transform: translateY(0.7vh);
 }
 
 .search-box-list input {
@@ -92,7 +90,6 @@
 
 /* ____________________________________footer_____________________________ */
 
-
 .footer-section a {
   /* color: black; */
   margin-right: 24vh;
@@ -102,8 +99,6 @@
 .list-section-footer li {
   /* margin-top: 20px; */
   /* padding-right:12px; */
-
-
 }
 
 .footer-section {
@@ -113,11 +108,9 @@
   right: 0;
   left: 0;
   width: 100%;
-  height: 18.5vh;
+  height: 12vh;
   box-sizing: border-box;
   /* padding: 10px;  */
-  /* border: 0.3vh solid rgb(225, 214, 214); */
-
 }
 
 .list-section-footer {
@@ -126,7 +119,6 @@
   list-style: none;
   display: flex;
   /* flex-wrap: wrap; */
-
 }
 
 .footer-section .fotter-paragraph p {
@@ -134,14 +126,10 @@
   text-indent: 6vh;
   letter-spacing: 0.5vh;
   color: aliceblue;
-
 }
-
-
-
 
 /* __________________________icons________________________ */
 
 .footer-section img {
-  width: 5.5vh;
+  width: 3.5vh;
 }

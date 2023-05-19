@@ -1,5 +1,6 @@
 import data from "./textData.json";
 import "./review.css";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -7,9 +8,7 @@ function About() {
       <div>
         <h1 className="h1-about">About Us</h1>
       </div>
-      <div className="paragraph-container">
         <p>{data.about_para}</p>
-      </div>
       <div className="footer-container">
         <li className="footer-list">
           <div className="address">
@@ -26,9 +25,9 @@ function About() {
           </div>
           <div className="useful-links">
             <h3>USEFUL LINKS</h3>
-            <a href="" target="_blank" rel="noopener">
-              <li>sample</li>
-            </a>
+            <Link to="/test">
+              <li>test</li>
+            </Link>
             <a href="" target="_blank" rel="noopener">
               <li>sample</li>
             </a>

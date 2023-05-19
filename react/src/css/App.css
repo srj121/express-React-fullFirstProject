@@ -20,28 +20,26 @@ body.light-mode h3 {
 /* ....................................TABLE................................... */
 body.light-mode table {
   border-collapse: collapse;
-  font-size: 2.2vh;
+ 
   font-family: sans-serif;
-  min-width: 56.5vh;
+  min-width: 50vh;
 
 }
 body.light-mode .main-td {
+ 
   position: fixed;
-  min-width: 56.5vh !important;
   background-color: #009879 !important;
   box-shadow: 0 0 2vh rgb(221, 209, 209);
 }
 
 body.light-mode thead tr {
   background-color: #009879;
-  
   color: #ffffff;
-  text-align: left;
 }
 
 body.light-mode th,
 td {
-  padding: 1.8vh 7vh;
+  padding: 1.8vh 6.64vh;
 }
 body.light-mode td {
   color: black ;

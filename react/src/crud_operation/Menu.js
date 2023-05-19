@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { toast } from 'react-toastify';
 import '../css/menu.css'
+import Toggle from "../review/toggle";
 
 function showNotification(message, status = 'success') {
   const toastFunc = status === 'error' ? toast.error : toast.success;
