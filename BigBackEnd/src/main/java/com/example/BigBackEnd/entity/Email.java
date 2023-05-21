@@ -6,8 +6,9 @@ import lombok.Data;
 
 public class Email {
 
-    private String to;
-    private String subject;
-    private String bodyText;
+    private String emailTo;
+
+//    private String subject;
+//    private String bodyText;
 
 }
